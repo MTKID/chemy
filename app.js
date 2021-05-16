@@ -55,27 +55,11 @@ const quiz = [
                               question: '  精密さ（precision）',
                               answers: [ '答えを見る','次へすすむ'],
                               correct: '答えを見る'
-                            }, {
-                                question: '  精密さ（precision）',
-                                answers: [ '答えを見る','次へすすむ'],
-                                correct: '答えを見る'
-                                {
-                                    question: '',
-                                    answers: [ '答えを見る','次へすすむ'],
-                                    correct: '答えを見る'
-                                  },  {
+                            },  {
                                         question: '1calは何J？',
                                         answers: [ '答えを見る','次へすすむ'],
                                         correct: '答えを見る'
-                                      },  {
-                                            question: '正確さとは？',
-                                            answers: [ '答えを見る','次へすすむ'],
-                                            correct: '答えを見る'
-                                          },  {
-                                                question: '精密さとは？',
-                                                answers: [ '答えを見る','次へすすむ'],
-                                                correct: '答えを見る'
-                                              },
+                                      },
 ];
 
 const $window = window;
