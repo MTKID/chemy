@@ -96,7 +96,7 @@ const goToNext = () => {
 const judge = (elm) => {
   if(elm.textContent === quiz[quizCount].correct){
     $window.alert('解答をみるにはボタンをクリック');
-  let newwin = window.open('sample.html');
+  let newwin = window.open('https://mtkid.github.io/answer/');
   }
   goToNext();
 };
