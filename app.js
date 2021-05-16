@@ -96,7 +96,7 @@ const goToNext = () => {
 const judge = (elm) => {
   if(elm.textContent === quiz[quizCount].correct){
     $window.alert('解答をみるにはボタンをクリック');
-  let newwin = window.open('chemy/sample.html');
+  let newwin = window.open('sample.html');
   }
   goToNext();
 };
