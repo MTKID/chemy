@@ -95,7 +95,7 @@ const goToNext = () => {
 
 const judge = (elm) => {
   if(elm.textContent === quiz[quizCount].correct){
-    $window.alert('解答をみるには次のurlをコピペし別タブでひらいてください');
+    $window.alert('解答をみるにはボタンをクリック');
   let newwin = window.open('chemy/sample.html');
   }
   goToNext();
